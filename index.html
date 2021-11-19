@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gerador de Senhas aleatórias</title>
+    <link rel="stylesheet" href="style.css" />
+	
+	<!--https://www.pexels.com/pt-br/foto/arvores-de-folha-vermelha-perto-da-estrada-33109/ fonte do background -->
+  
+  </head>
+  <body>
+  	
+	
+    <div id="random-password">
+      <input type="text" id="password" /> <button id="copy">Copiar</button>
+      <div id="settings">
+        <label for="length">Quantidade de caracteres </label>
+        <input type="number" id="length" value="16" min="8" max="64" />    
+        <label for="numbers">Inclue números</label>
+        <input type="checkbox" id="numbers" checked />
+        <label for="symbols">Inclue símbolos</label>
+        <input type="checkbox" id="symbols" checked />
+      </div>
+      <button id="generate">Generar Senhas</button>
+    </div>
+	<div class="container">
+		<section>
+			<div class="set">
+				<div></div>
+				
+			</div>
+		</section>
+    <script src="script.js"></script>
+  </body>
+</html>
